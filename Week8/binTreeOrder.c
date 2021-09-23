@@ -11,7 +11,7 @@ typedef struct node {
 
 typedef node_t tree_t;
 #endif
-
+//
 void print_preorder(tree_t *t){
     if(t==NULL)
         return;
