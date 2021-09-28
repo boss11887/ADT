@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-void fun(char s[4]){
-    for(int a=0;a<4;a++){
-        printf("%c ",s[a]);
-    }
+void swap(int *a , int*b){
+    int c=*a;
+    *a=*b;
+    *b=c;
 }
 int main(){
-    char s[]={'a','b','c','d'};
-    fun(s);
+    int a=1;
+    int b=2;
+    swap(&a,&b);
+    printf("%d %d",a,b);
 }
