@@ -2,9 +2,6 @@
 #include <string.h>
 char s[100005][55];
 char q[100005][55];
-/*
-bac
-*/
 void sort(char *ar){
     int n=strlen(ar);
     for(int i=1;i<n;i++){
@@ -17,7 +14,6 @@ void sort(char *ar){
         ar[cur+1]=val;
     }
 }
-
 int main(){
 int n,m;
 scanf("%d %d",&n,&m);
@@ -37,7 +33,6 @@ for(int a=1;a<=m;a++){
     }
     printf("\n");
 }
-
 return 0;}
 /*
 >>> test case #1
